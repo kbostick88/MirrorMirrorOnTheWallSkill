@@ -10,15 +10,34 @@ Please follow the four steps below to setup and install this Alexa skill correct
 You need to setup an AWS IoT Device, which is used for the communication between this Alexa skill and the Magic Mirror node app. The credentials you obtained through this process will also be used by the complementary Magic Mirror Module.
 
 1. login to __[AWS Management Console](https://console.aws.amazon.com/console/home?region=us-east-1)__
-2. find __AWS IoT__ service
-3. click on __Connect__ at the left menu bar
-4. under _Configuring a device_, click on __Get Started__
-5. choose __Linux/OSX__ platform, and __Node.JS__
-6. give your device a name, any name is fine
-7. download credentials and run the start.sh script, which will generate a root-CA.crt
-8. go to your local copy of this repo, create a folder called __certs__ inside the __src__ folder
-9. place all the credentials in the __certs__ folder
-10. open MirrorMirror.js, replace the __keyPath__, __certPath__, and __caPath__ with your own credentials' paths
+![](https://github.com/joanaz/MirrorMirrorOnTheWallSkill/raw/screenshots/screenshots/Screen Shot 2017-02-23 at 17.53.40.png)
+2. choose US East region
+![](https://github.com/joanaz/MirrorMirrorOnTheWallSkill/raw/screenshots/screenshots/Screen Shot 2017-02-23 at 18.13.43.png)
+3. find __AWS IoT__ service
+![](https://github.com/joanaz/MirrorMirrorOnTheWallSkill/raw/screenshots/screenshots/Screen Shot 2017-02-23 at 17.53.45.png)
+4. click on __Connect__ at the left menu bar, under _Configuring a device_, click on __Get Started__
+![](https://github.com/joanaz/MirrorMirrorOnTheWallSkill/raw/screenshots/screenshots/Screen Shot 2017-02-23 at 17.36.20.png)
+5. choose __Linux/OSX__ platform, and __Node.js__
+![](https://github.com/joanaz/MirrorMirrorOnTheWallSkill/raw/screenshots/screenshots/Screen Shot 2017-02-23 at 17.36.38.png)
+6. click on __Get Started__
+![](https://github.com/joanaz/MirrorMirrorOnTheWallSkill/raw/screenshots/screenshots/Screen Shot 2017-02-23 at 17.36.48)
+7. name your device "MagicMirror"
+![](https://github.com/joanaz/MirrorMirrorOnTheWallSkill/raw/screenshots/screenshots/Screen Shot 2017-02-23 at 17.37.35.png)
+8. download credentials, aka connection kit
+![](https://github.com/joanaz/MirrorMirrorOnTheWallSkill/raw/screenshots/screenshots/Screen Shot 2017-02-23 at 17.38.03.png)
+9. click on __Next step__
+![](https://github.com/joanaz/MirrorMirrorOnTheWallSkill/raw/screenshots/screenshots/Screen Shot 2017-02-23 at 17.38.26.png)
+10. follow the instructions to run the start.sh script, which will generate a root-CA.crt
+![](https://github.com/joanaz/MirrorMirrorOnTheWallSkill/raw/screenshots/screenshots/Screen Shot 2017-02-23 at 17.38.35.png)
+![](https://github.com/joanaz/MirrorMirrorOnTheWallSkill/raw/screenshots/screenshots/Screen Shot 2017-02-23 at 18.33.05.png)
+![](https://github.com/joanaz/MirrorMirrorOnTheWallSkill/raw/screenshots/screenshots/Screen Shot 2017-02-23 at 18.33.21.png)
+![](https://github.com/joanaz/MirrorMirrorOnTheWallSkill/raw/screenshots/screenshots/Screen Shot 2017-02-23 at 18.34.29.png)
+![](https://github.com/joanaz/MirrorMirrorOnTheWallSkill/raw/screenshots/screenshots/Screen Shot 2017-02-23 at 18.35.20.png)
+9. go to your local copy of this repo, create a folder called __certs__ inside the __src__ folder
+![](https://github.com/joanaz/MirrorMirrorOnTheWallSkill/raw/screenshots/screenshots/)
+10. place all the credentials in the __certs__ folder
+![](https://github.com/joanaz/MirrorMirrorOnTheWallSkill/raw/screenshots/screenshots/)
+11. open MirrorMirror.js, replace the __keyPath__, __certPath__, and __caPath__ with your own credentials' paths
 
 
 ## 2. Install Dependencies
